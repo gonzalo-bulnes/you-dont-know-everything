@@ -1,3 +1,5 @@
+<img src="https://gonzalo-bulnes.github.io/santiago-beamer-theme/images/skyrocket-and-stars-github.png" alt="" height="144" width="500" style="margin-bottom: -37px" />
+
 You Don't Know Everything
 =========================
 
