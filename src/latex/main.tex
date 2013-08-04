@@ -1,0 +1,77 @@
+% -*- Mode: LaTeX; coding: utf-8; indent-tabs-mode: nil; tab-width: 2 -*-
+
+%% You Don't Know Everything
+%
+% This three-part 45-minute talk about agility introduces some principles and
+% practices that we are applying at Acid Labs to build agile teams both within
+% and outside of the software development industry.
+% It targets an audience composed by agile working methods practictionners, and
+% specially team leaders, advisors, and developers.
+%
+% Author: Gonzalo Bulnes Guilpain <gon.bulnes@gmail.com>
+% URL: https://github.com/gonzalo-bulnes/you-dont-know-everything
+% 2013-08
+%
+% Copyright (C) 2013 Gonzalo Bulnes Guilpain
+%
+% Redistribution and use in source and binary forms, with or without
+% modification, are permitted provided that the following conditions are met:
+%
+% * Redistributions of source code must retain the above copyright notice,
+% this list of conditions and the following disclaimer.
+%
+% * Redistributions in binary form must reproduce the above copyright notice,
+% this list of conditions and the following disclaimer in the documentation
+% and/or other materials provided with the distribution.
+%
+% THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED
+% WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+% MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+% IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+% SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+% PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+% OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+% WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+% OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+% OF THE POSSIBILITY OF SUCH DAMAGE.
+%%
+
+\documentclass{beamer}
+
+\usetheme[pageofpages=de,titlepagelogo=../../vendor/images/acid]{Santiago}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+% Links and URL
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=false,
+    %citecolor=black,
+    %filecolor=black,
+    %linkcolor=black,
+    %urlcolor=black,
+    pdfauthor={Gonzalo Bulnes Guilpain},
+    pdftitle={You Don't Know Everything},
+    pdfsubject={A strategy to create agile organisations through emergence},
+    pdfkeywords={collaboration, resilience, team building, leadership, agility},
+    pdftex
+}
+
+% Ornaments
+\usepackage{fourier-orns}
+\usepackage{pifont}
+
+\author{Gonzalo Bulnes Guilpain}
+\title[You Don't Know Everything]{You Don't Know Everything}
+\subtitle{A strategy to create agile organisations through emergence}
+\titlegraphic{\aldine} % This is an ornament!
+\institute{Agiles2013}
+\date{October 10--11--12, 2013}
+\logo{\includegraphics[height=7mm]{../../vendor/images/acid-blanco}}
+
+\begin{document}
+\include{content}
+\end{document}
+% EOF
