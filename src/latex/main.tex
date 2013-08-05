@@ -36,7 +36,17 @@
 % OF THE POSSIBILITY OF SUCH DAMAGE.
 %%
 
-\documentclass{beamer}
+%% Output can be switched from presentation to article.
+%  Keep only the \documentclass group you want and comment the other.
+%
+%% Presentation
+\documentclass[ignorenonframetext]{beamer}
+%
+%% Article
+%\documentclass[twocolumn]{scrartcl}
+%\usepackage{beamerarticle}
+%
+%%
 
 \usetheme[pageofpages=de,titlepagelogo=../../vendor/images/acid]{Santiago}
 
@@ -67,11 +77,17 @@
 \title[You Don't Know Everything]{You Don't Know Everything}
 \subtitle{A strategy to create agile organisations through emergence}
 \titlegraphic{\aldine} % This is an ornament!
-\institute{Agiles2013}
-\date{October 10--11--12, 2013}
+\institute{Agiles2013, Lima, Peru}
+\date{October, 2013}
 \logo{\includegraphics[height=7mm]{../../vendor/images/acid-blanco}}
 
 \begin{document}
-\include{content}
+
+  % The \include command is tricky to use with the Beamer ignorenonframetext option,
+  % see http://tex.stackexchange.com/questions/29353/input-is-ignored-with-beamer-option-ignorenonframetext
+  \mode<all>
+  \include{content}
+  \mode*
+
 \end{document}
 % EOF
